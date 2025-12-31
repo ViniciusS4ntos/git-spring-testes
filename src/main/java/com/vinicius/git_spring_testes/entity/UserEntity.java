@@ -1,4 +1,4 @@
-package com.vinicius.git_spring_testes.domain;
+package com.vinicius.git_spring_testes.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -23,7 +23,7 @@ import org.hibernate.annotations.AnyDiscriminatorImplicitValues;
 //LOMBOK | @Builder - Adicionar o metodo builder() a classe para melhor organizameento
 @Builder
 
-public class User {
+public class UserEntity {
     // JPA | @Id - faz o atributo vira PK ( primary key )
     @Id
 
